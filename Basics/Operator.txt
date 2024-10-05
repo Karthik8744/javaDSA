@@ -1,0 +1,32 @@
+int c = a + b;
+a is operand
++ is operator
+
+Types of operators:
+
+1. Arithmetic operators:
+
+Binary:
+'+', '-', '*', '/', '%'
+Unary:
+'++', '--'
+
+Pre increment: ++a
+1. value change
+2. value use
+post increment: a++
+1. value use
+2. value change
+
+
+2. Relational operators:
+'==', '!=', '>', '<', '>=', '<='
+
+3. Logical operators:
+'&&', '||', '!'
+
+4. Bitwise operators:
+(Bit manipulation module)
+
+5. Assignment operators:
+'=', '+=', '-=', '*=', '/='

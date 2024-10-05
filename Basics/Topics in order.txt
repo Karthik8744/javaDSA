@@ -1,0 +1,7 @@
+1. Data types in java (Data types.txt)
+2. How does java programs run (Java How)
+3. Type conversion and type promotion (Type.txt) 
+
+4. operators in java (Operator.txt)
+5. Function and method scope (Scope.txt)
+6. Basics.java (1 to 4)

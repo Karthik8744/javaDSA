@@ -1,0 +1,18 @@
+Java is a typed language. We need to initialize the variable with datatype
+
+Primitive: (Already exits)
+- byte (1 byte) [-128 to 127]
+- short (2 byte) 
+- char (2 byte)
+- boolean (1 byte) [true, false]
+- int (4 byte) [-2B to 2B]
+- long (8 byte)
+- float (4 byte)
+- double (8 byte)
+
+Non - primitive: (We create them)
+- String
+- Array
+- Class
+- Object
+- Interface

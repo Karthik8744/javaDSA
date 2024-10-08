@@ -1,12 +1,14 @@
-Conversion happens when: (widening)
+⭐ Conversion happens when: (widening)
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 a. type compatible
 b. Destination type > Source type
 
 byte -> short -> int -> long -> double
                 int -> float -> double 
 
-Type promotion in expressions:
+⭐ Type promotion in expressions:
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 1. Java automatically promotes each byte, short or char operand to int when evaluating an expression.
 2. If one operand is long, float or double the whole expression is promoted to long, float or double respectively.
 
-Type cast (narrowing conversion)
+⭐ Type cast (narrowing conversion)

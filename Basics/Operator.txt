@@ -2,9 +2,10 @@ int c = a + b;
 a is operand
 + is operator
 
-Types of operators:
+⭐ Types of operators:
 
 1. Arithmetic operators:
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 
 Binary:
 '+', '-', '*', '/', '%'
@@ -20,13 +21,17 @@ post increment: a++
 
 
 2. Relational operators:
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 '==', '!=', '>', '<', '>=', '<='
 
 3. Logical operators:
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 '&&', '||', '!'
 
 4. Bitwise operators:
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 (Bit manipulation module)
 
 5. Assignment operators:
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 '=', '+=', '-=', '*=', '/='

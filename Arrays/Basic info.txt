@@ -1,0 +1,12 @@
+- 0-based indexing
+
+⭐ Definition: List of elements of the same type placed in the contiguous memory location
+    ‾‾‾‾‾‾‾‾‾‾                          ‾‾‾‾‾‾‾‾‾               ‾‾‾‾‾‾‾‾‾‾
+⭐ Operations in Array:⭐
+    ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+- Create (dataType arrayName[] = new dataType[size])
+- Input 
+- Output
+- Update
+
+⭐ We always pass arrays by reference ⭐

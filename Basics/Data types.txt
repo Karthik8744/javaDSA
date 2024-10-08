@@ -1,6 +1,7 @@
 Java is a typed language. We need to initialize the variable with datatype
 
-Primitive: (Already exits)
+⭐ Primitive: (Already exits)
+   ‾‾‾‾‾‾‾‾‾‾
 - byte (1 byte) [-128 to 127]
 - short (2 byte) 
 - char (2 byte)
@@ -10,7 +11,8 @@ Primitive: (Already exits)
 - float (4 byte)
 - double (8 byte)
 
-Non - primitive: (We create them)
+⭐ Non - primitive: (We create them)
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 - String
 - Array
 - Class

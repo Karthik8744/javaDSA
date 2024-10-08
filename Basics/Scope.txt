@@ -1,8 +1,10 @@
-Function scope:
+⭐ Function scope:
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 - A variable that is initialized inside the function can be only used in that function.
 - It cannot be used outside the function
 
-Block scope:
+⭐ Block scope:
+   ‾‾‾‾‾‾‾‾‾‾‾‾
 - A variable that is initialized inside a block of code can be only used in that block.
 - It cannot be used outside the block.
 - Ex: i in for loop.

@@ -1,8 +1,8 @@
 [JVM + Libraries] = JRE
 [JRE + Development Tools] = JDK
 
-Compilation: (Portable)
-
+⭐ Compilation: (Portable)
+    ‾‾‾‾‾‾‾‾‾‾‾
               Compiler                JVM
 Source Code ------------> Byte code -------> Native code
  (.java)                  (.class)

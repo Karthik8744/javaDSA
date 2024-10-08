@@ -84,8 +84,8 @@ class Search {
 
         reverseArray(numbers);
         int len = numbers.length;
-        for (int i = 0; i < len; i++) {
-            System.out.print(numbers[i] + " ");
+        for (int i: numbers) {
+            System.out.print(i + " ");
         }
         System.out.println();
     }

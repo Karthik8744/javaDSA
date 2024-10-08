@@ -1,3 +1,6 @@
 1. Basic info
 2. Operations.java
 3. Search.java (Linear search, Binary Search, Maximum and Minimum in array, Reverse an array)
+4. pairsInArray (pairs in array, maximum subarray sum, ⭐Kadane algorithm⭐)
+5. TrappingRainwater.java (medium level question)
+6. Stocks.java (Medium level question) (Buying and Selling of stocks)

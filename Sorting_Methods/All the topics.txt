@@ -1,0 +1,5 @@
+1. Bubble Sort
+2. Selection Sort
+3. Insersion Sort
+4. Inbuilt Sort
+5. Counting Sort

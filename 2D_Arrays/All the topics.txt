@@ -3,3 +3,5 @@
 3. 2D_Arrays in memory.txt
 4. 2D_Arrays in memory.png
 5. Spiral.java
+6. DiagonalSum.java
+7. StaircaseSearch.java (Search in sorted matrix)

@@ -3,7 +3,7 @@ class Spiral {
      * Print the 2D array in sprial fasion
     */
 
-    // Time complexity: 
+    // Time complexity: O(m*n)
     static void spiral(int arr[][]) {
         int startrow = 0;
         int startcol = 0;

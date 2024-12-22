@@ -1,0 +1,20 @@
+⭐ 2D-Array:
+    ‾‾‾‾‾‾‾‾
+
+1  2  3
+4  5  6
+7  8  9
+
+⭐ Memory(Row-major):
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
+1  2  3  4  5  6  7  8  9
+
+⭐ Memory(column-major):
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+1  4  7  2  5  8  3  6  9
+
+Generally 2D arrays are stored either in row-major or column-major form in the memory.
+
+- But in java a seperate array is created with size of no.of rows in the 2D array.
+- Each element in the newly created array points to the each row of the 2D array

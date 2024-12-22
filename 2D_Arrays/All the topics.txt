@@ -1,2 +1,5 @@
 1. Operations.java
 2. Search.java
+3. 2D_Arrays in memory.txt
+4. 2D_Arrays in memory.png
+5. Spiral.java

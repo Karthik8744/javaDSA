@@ -1,5 +1,3 @@
-import java.util.*;
-
 class DiagonalSum {
     // Only for square matrix
     // Time Complexity: O(n)

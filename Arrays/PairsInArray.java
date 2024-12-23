@@ -1,4 +1,4 @@
-class pairsInArray {
+class PairsInArray {
     // Prints all the possible pairs in an array
     // Time complexity: O(n²)
     static void pairsInArray(int arr[]) {
@@ -81,7 +81,6 @@ class pairsInArray {
     // Print all the subarrays in a array(kadane sum)
     // Time Complexity: O(n²)
     static void kadaneSumArray(int arr[]) {
-        int len = arr.length;
         int max = Integer.MIN_VALUE;
         int curr = 0;
         for (int i: arr) {

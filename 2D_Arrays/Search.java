@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Search {
     // Search operation in 2D-arrays
     static void linearSearch (int[][] arr, int key) {

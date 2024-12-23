@@ -89,6 +89,8 @@ public class Basics {
 
             System.out.println(n);
         } while (true);
+
+        sc.close();
     }
 
     static boolean isPrime (int n) {
@@ -120,6 +122,10 @@ public class Basics {
         char ch = 'a';
         boolean var = false;
         float price = 10.5f;
+
+        if (var) {
+            System.out.println(a + b + ch + price);
+        }
 
         int number = 12345;        
         

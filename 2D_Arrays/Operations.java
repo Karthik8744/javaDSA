@@ -11,6 +11,7 @@ class Operations {
                 arr[i][j] = sc.nextInt();
             }
         }
+        sc.close();
     }
 
     // Output operation in arrays
@@ -40,5 +41,7 @@ class Operations {
 
         update(marks);
         display(marks);
+
+        sc.close();
     }
 }

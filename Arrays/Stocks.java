@@ -9,7 +9,6 @@ class Stocks {
 
     // Time Complexity: O(n)
     static int sellStocks(int[] stocks) {
-        int len = stocks.length;
         int buyPrice = Integer.MAX_VALUE;
         int profit;
         int maxProfit = 0;

@@ -8,6 +8,7 @@ class Operations {
         for (int i = 0; i < len; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
     }
 
     // Output operation in arrays
@@ -31,5 +32,7 @@ class Operations {
 
         update(marks);
         display(marks);
+
+        sc.close();
     }
 }

@@ -2,3 +2,4 @@
 2. Arrays
 3. Sorting_Methods
 4. 2D_Arrays
+5. Strings

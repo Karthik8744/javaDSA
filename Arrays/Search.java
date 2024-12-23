@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Search {
     // Linear Search
     // Time complexity: O(n)
@@ -83,7 +81,6 @@ class Search {
         }
 
         reverseArray(numbers);
-        int len = numbers.length;
         for (int i: numbers) {
             System.out.print(i + " ");
         }

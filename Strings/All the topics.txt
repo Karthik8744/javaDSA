@@ -1,0 +1,11 @@
+1. Basic info.txt               (Interning)
+2. Operations.java              (Concatenation)
+3. Palindrome.java              (Question)
+4. ShortestPath.java            (Question)
+5. Comparisions.java            (Interning, equals function)
+6. StringFunctions.java         (length function, substring function)
+7. Largest.java                 (compareTo function)
+8. Why Stringbuilders.txt
+9. Stringbuilders.java
+10. ToUppercase.java            (Question)
+11. Compression.java            (Question)

@@ -1,0 +1,12 @@
+String str = "Tony"
+
+for (ch = 'a' to 'z') {
+    str += ch;
+}
+
+To implement the above statement using strings it will create 26 unique strings in memory which is ineffective
+Ex: Tonya, Tonyab, Tonyabc, ... , Tonyabc...xy, Tonyabc...xyz
+
+which is very ineffective
+The above code takes Time complexity O(m*n)≈O(n²) m is no.of times loop run and n is size of the string 
+Instead String Builder would take only O(n) i.e; O(26)

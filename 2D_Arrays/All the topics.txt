@@ -1,6 +1,6 @@
 1. Operations.java
 2. Search.java
-3. 2D_Arrays in memory.txt
+3. 2D_Arrays in memory.txt (Row major and column major)
 4. 2D_Arrays in memory.png
 5. Spiral.java
 6. DiagonalSum.java

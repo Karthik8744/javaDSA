@@ -1,0 +1,18 @@
+⭐ Definition:
+    ‾‾‾‾‾‾‾‾‾‾  
+- A string is an object that represents a number of character values.
+- Each letter in the string is a separate character value that makes up the Java string object.
+- Characters in Java are represented by the char class.
+- Users can write an array of char values that will mean the same thing as a string.
+
+⭐ Interning ⭐
+Two reference variable with same value points towards same string in memory pool(i.e; intern pool)
+
+The reference variables points towards Strings in the memory, unlike other data types which are stored in variables.
+
+- Strings are ⭐IMMUTABLE⭐
+- If we make any changes in the string then a new string(if does not exist) is created and the variable points to the newly created string
+
+
+- length() in string.length() is a function
+- length in arr.length() is a property

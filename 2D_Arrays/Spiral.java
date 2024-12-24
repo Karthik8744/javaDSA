@@ -34,7 +34,7 @@ class Spiral {
             }
             endrow--;
 
-            // Bottom row
+            // Left col
             for (int i = endrow; i >= startrow; i--) {
                 System.out.print(arr[i][startcol] + " ");
             }

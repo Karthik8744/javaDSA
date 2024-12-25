@@ -1,0 +1,8 @@
+1. Basics.txt
+2. Bitwise_Operators.txt
+3. Operators.java
+4. Operations.java (oddEven, get ith bit, set ith bit, clear last i bits, clear bits from range i to j)
+5. CheckPowerTwo.java      (Question)
+6. CountSetBits.java       (Question)
+7a. FastExp.png             (Reference)
+7b. FastExponentiation.java (⭐Question⭐)

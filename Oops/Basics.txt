@@ -1,0 +1,93 @@
+⭐ Classes:
+   ‾‾‾‾‾‾‾‾
+Group of entities  (Class is nothing but Blueprint of an object) 
+Class ->  Attributes(properties)  +  functions(behaviour)
+                    |                        |
+                    ▼                        ▼
+Ex: pen -> String color, int tip     setColor(), setTip()
+
+⭐ Objectes:
+   ‾‾‾‾‾‾‾‾‾
+Entities in the real world
+
+✅ Parent reference_variable = new Child_object(); can be done but reverse gives error.
+
+⭐ Access Modifiers / Access Specifiers:
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+_________________________________________________________________________________________
+| Access Modifiers | Within class | Within Package | Outside Package  | Outside Package |
+|                  |              |                | by subclass only |                 |
+—————————————————————————————————————————————————————————————————————————————————————————
+| Public           | Yes          | No             | No               | No              |
+| Default          | Yes          | Yes            | No               | No              |
+| Protected        | Yes          | Yes            | Yes              | No              |
+| Private          | Yes          | Yes            | Yes              | Yes             |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+
+✅ In java none of the classes can be private and proteceted
+
+⭐ Getters and Setters:  (To access and modify private properties)
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Get: To return the value
+Set: To modify the value
+
+⭐ this: this keyword is used to refer to the current object
+
+⭐ Constructor:
+   ‾‾‾‾‾‾‾‾‾‾‾‾
+Constructor is a special method which is invoked automatically at the time of object creation.
+- Constructors have same name as class or structure.
+- Constructors don't even have return type(void).
+- Constructors are only called once at the time of object creation.
+- Memory allocation happens when Constructors are called.
+
+- Java creates a default Constructors in the absence of Constructors.
+
+=---= Understand what is Constructor chainging and implement?
+
+Types of Constructors:
+1. Non-parameterized
+2. Parameterized
+3. Copy Constructors
+
+⭐ Shallow Copy:
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾
+We copy the references.
+The changes in the previous objects reflect.
+
+⭐ Deep copy:
+   ‾‾‾‾‾‾‾‾‾‾
+We copy the values.
+The changes in the previous objects does not reflect.
+
+=---= Lazy copy? (Stack overflow)
+
+⭐ Destructors:
+   ‾‾‾‾‾‾‾‾‾‾‾‾
+- Destructors are used to remove unused objects from memory.
+- In java there are no Destructors.
+- In java the garbage collector scans the code at the point of execution,
+   if the obects are not used after that point then it removes from the memory.
+
+⭐ Packages:
+   ‾‾‾‾‾‾‾‾‾
+Packages is a group of similar type of classes, interfaces and sub-packages
+- Inbuilt packages  (util package in java i.e; java.util.*)
+- User defined packages
+
+=---= Try creating packages?
+
+⭐ Static keyword:
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Static keyword in java is used to share the same variable or method of a given class.
+- properties
+- functions
+- blocks
+- nested classes
+
+⭐ Super keyword:
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Super keyword is used to refer immediate parent class object
+- to access parent's properties.
+- to access parent's fuctions.
+- to access parent's constructors.

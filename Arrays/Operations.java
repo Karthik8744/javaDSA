@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Operations {
+public class Operations {
     // Input/Update operation in arrays
     static void update (int[] arr) {
         int len = arr.length;

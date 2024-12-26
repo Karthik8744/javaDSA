@@ -1,4 +1,4 @@
-class StringFunctions {
+public class StringFunctions {
     public static void main(String[] args) {
         String str = "hello I am karthik";
 

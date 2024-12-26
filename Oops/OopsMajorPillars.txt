@@ -1,0 +1,65 @@
+There are 4 major pillars in Oops:
+1. Encapsulation
+2. Inheritance
+3. Polymorphism
+4. Abstaction
+
+
+⭐ Encapsulation:
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Def: Encapsulation is defined as wrapping up of data & methods under single unit. It also implements data hiding.
+
+Ex: encapsulating properties and function in a class
+data hiding is nothing but hiding sensitive or useless informations (using access modifiers such as private)
+
+⭐ Inheritence:
+   ‾‾‾‾‾‾‾‾‾‾‾‾
+
+Def: Inheritance is when properties & methods of base class are passed to a derived class.
+- When we create an object for a derived class then it calls the constructor of base class
+
+Types of Inheritance:
+1. Single level Inheritance  (Base class -> Derived class)
+2. Multi level Inheritence   (Base class -> Derived class -> Derived class)
+3. Hierarchial Inheritance   (Base class -> Derived class, Derived class)
+4. Hybrid Inheritance        (Combination of all the above Inheritences)
+5. Multiple Inheritance      (Cannot be implemented using classes, can be implemented using interfaces)
+
+⭐ Polymorphism: (poly-many; morph-forms)
+   ‾‾‾‾‾‾‾‾‾‾‾‾‾
+- Compile time Polymorphism(static)   = Method overloading
+- Run time Polymorphism(Dynamic)  = Method overriding
+
+Method overloading = Multiple functions with same name but different parameters.
+Method overriding = Parent and child classes both contain the same function with a different definition.
+
+⭐ Abstraction: (implementation ❌ idea ✅)
+   ‾‾‾‾‾‾‾‾‾‾‾‾
+Hiding all the unnecessary details and showing only the important parts to the user.
+- Abstract classes
+- Interfaces
+
+
+Abstract class:
+- Cannot create an instance of abstract class
+- Can have abstract / non-abstract methods
+- Can have constructors
+
+✅ Derived class must implement abstract methods of the base class
+
+
+Interfaces:
+Interface is a blue print of a class
+- All method are public, abstract and without implementation
+- Used to achieve total abstraction
+- Variables is interfaces are by default final, public and static.
+
+Use 1 - Implements multiple Inheritance
+Use 2 - Total Abstaction (100% abstraction)
+
+Ex: Interface -> car (wheels, speed, engine)
+                        |
+                        ▼
+    Class     ->    Maruti 800
+
+=---= Try to implement multiple Inheritance using interfaces?

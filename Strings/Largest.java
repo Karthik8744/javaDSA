@@ -1,4 +1,4 @@
-class Largest {
+public class Largest {
     /*
      * Print the lexicographically largest string among the given list of strings
      */

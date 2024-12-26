@@ -1,4 +1,4 @@
-class Spiral {
+public class Spiral {
     /** Take 2D array as an input
      * Print the 2D array in sprial fasion
     */

@@ -1,4 +1,4 @@
-class Compression {
+public class Compression {
 
     /*
      * Compress the given string by converting aaa -> a3 but do not change to a -> a1 (as it is decompression)

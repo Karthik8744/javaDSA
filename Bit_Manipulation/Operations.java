@@ -1,4 +1,4 @@
-class Operations {
+public class Operations {
     /*
      * Check weather a number is odd or even
      */

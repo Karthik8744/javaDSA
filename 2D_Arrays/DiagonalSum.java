@@ -1,4 +1,4 @@
-class DiagonalSum {
+public class DiagonalSum {
     // Only for square matrix
     // Time Complexity: O(n)
     static void diagonalSum (int[][] arr) {

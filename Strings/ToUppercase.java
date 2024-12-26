@@ -1,4 +1,4 @@
-class ToUppercase {
+public class ToUppercase {
     /*
      * For a given string convert the first letter in each of the word to uppercase
      */

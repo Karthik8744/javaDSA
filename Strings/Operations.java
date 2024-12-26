@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Operations {
+public class Operations {
     public static void main (String[] args) {
         // Creation of strings
         String str = "abcd";

@@ -1,4 +1,4 @@
-class CountingSort {
+public class CountingSort {
     // Counting Sorting
     // Only used for less range numbers
     // Time Complexity: O(n log n)

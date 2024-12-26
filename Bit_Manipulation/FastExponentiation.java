@@ -1,4 +1,4 @@
-class FastExponentiation {
+public class FastExponentiation {
 
     /*
      * Calculate a power b

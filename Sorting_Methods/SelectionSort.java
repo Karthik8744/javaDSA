@@ -1,4 +1,4 @@
-class SelectionSort {
+public class SelectionSort {
     // Selection Sorting
     // Time Complexity: O(n²)
     static void selection (int[] arr) {

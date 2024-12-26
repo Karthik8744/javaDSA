@@ -1,4 +1,4 @@
-class BubbleSort {
+public class BubbleSort {
     // Bubble Sorting
     // Time Complexity: O(n²)
     static void bubble (int[] arr) {

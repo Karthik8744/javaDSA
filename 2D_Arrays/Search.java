@@ -1,4 +1,4 @@
-class Search {
+public class Search {
     // Search operation in 2D-arrays
     static void linearSearch (int[][] arr, int key) {
         int m = arr.length;

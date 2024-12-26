@@ -1,4 +1,4 @@
-class Comparisions {
+public class Comparisions {
     public static void main(String[] args) {
         String str = "hello";
         String str1 = "-karthik";

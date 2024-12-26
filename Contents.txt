@@ -3,3 +3,5 @@
 3. Sorting_Methods
 4. 2D_Arrays
 5. Strings
+6. Bit_Manipulation
+7. Oops

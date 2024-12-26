@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Collections;
 
-class InbuiltSort {
+public class InbuiltSort {
     // Time Complexity: O(n log n)
     public static void main(String[] args) {
         int numbers[] = {2, 4, 5, 3, 1};

@@ -1,4 +1,4 @@
-class PairsInArray {
+public class PairsInArray {
     // Prints all the possible pairs in an array
     // Time complexity: O(n²)
     static void pairsInArray(int arr[]) {

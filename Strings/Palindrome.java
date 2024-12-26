@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Palindrome {
+public class Palindrome {
 
     // Time complexity: O(n)
     static boolean palindrome(String str) {

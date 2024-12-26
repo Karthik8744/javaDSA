@@ -1,4 +1,4 @@
-class CountSetBits {
+public class CountSetBits {
 
     static int countSetBits (int n) {
         int count = 0;

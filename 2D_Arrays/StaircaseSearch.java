@@ -1,4 +1,4 @@
-class StaircaseSearch {
+public class StaircaseSearch {
     // Time Complexity : O(m+n)  // If the element is at the opposite end it is the worst case
     // Only for sorted arrays
     static void search(int[][] arr, int key) {

@@ -1,4 +1,4 @@
-class Search {
+public class Search {
     // Linear Search
     // Time complexity: O(n)
     static int linearSearch (int[] arr, int key) {

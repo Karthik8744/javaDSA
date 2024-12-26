@@ -1,4 +1,4 @@
-class CheckPowerTwo {
+public class CheckPowerTwo {
     /*
      * Check wether the given function is power of 2 or not
      */

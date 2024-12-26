@@ -1,4 +1,4 @@
-class ShortestPath {
+public class ShortestPath {
 
     // Time Complexity
     static void shortestPath (String str) {

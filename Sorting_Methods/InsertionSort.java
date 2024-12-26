@@ -1,4 +1,4 @@
-class InsertionSort {
+public class InsertionSort {
     // Selection Sorting
     // Time Complexity: O(n²)
     static void insertion (int[] arr) {

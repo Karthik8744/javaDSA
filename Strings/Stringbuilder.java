@@ -1,4 +1,4 @@
-class Stringbuilder {
+public class Stringbuilder {
     public static void main(String[] args) {
         // Creation of StringBuilder
         StringBuilder sb = new StringBuilder("");

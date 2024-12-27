@@ -1,0 +1,12 @@
+⭐ Recursion:
+   ‾‾‾‾‾‾‾‾‾‾
+Recursion is a method of solving a computational problem where,
+the solution depends on the solution to smaller instances of the same problem.
+
+- Always define your base case.
+
+Stack Overflow:
+A stack overflow is a runtime error that happens when a program runs out of memory in the call stack. 
+The stack overflow generally signals a problem in resource provisioning 
+and has to be fixed in order to allow the program to run and use memory properly
+Mainlyc caused due to the absence of base case

@@ -1,4 +1,5 @@
 1. Basics.txt
 2. CallStack1.png  (Call stack during forward direction of calling recursive functions ,i.e; towards base case)
 3. CallStack2.png  (Call stack during backward direction of returning)
-4. Problems.java   (Decreasing order)
+4. Problems.java   (Decreasing order, Increasing order, Factorial, Sum of n natural numbers, nth number in fibonacci, is array sorted, firstOccurence of an element, lastOccurence of an element, a^n(opstimised), Tailing, Remove Duplicates, Pairing)
+5. BinarySearch.java

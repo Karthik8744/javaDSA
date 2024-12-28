@@ -90,7 +90,82 @@ public class Problems {
         }
         return isFound;
     }
+
+
+    // Find a^n
+    // Time complexity: O(n)
+    static int power (int a, int n) {
+        if (n == 0) {
+            return 1;
+        }
+        return a * power(a, n-1);
+    }
+
+
+    // Find a^n
+    // Time complexity: O(logn)
+    static int powerOp (int a, int n) {
+        if (n == 0) {
+            return 1;
+        }
+        int halfp = powerOp(a, n/2);
+        if (n % 2 == 0) {
+            return halfp * halfp;
+        }
+        return halfp * halfp * a;
+    }
     
+
+    // Tiling Problem
+    /*
+     * Given a '2 * n' board and tiles of size '2 * 1',
+     * count the number of ways to tile the given board using the 2 * 1 tiles.
+     * (A tile can either be placed horizontally or vertically)
+     */
+    static int tiles (int n) {
+        // Base case
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+        // tiles(n-1) for vertical tiles(n-2) for horizontal
+        return tiles(n-1) + tiles(n-2);
+    }
+
+
+    // Remove duplicates in a string
+    // Strings with only integers
+    static void removeDup (String str, int idx, StringBuilder newstr, boolean[] map) {
+        if (idx == str.length()) {
+            System.out.println(newstr.toString());
+            return;
+        }
+
+        char temp = str.charAt(idx);
+        if (!map[temp - 'a']) {
+            newstr.append(temp);
+            map[temp - 'a'] = true;
+        }
+        removeDup(str, idx+1, newstr, map);
+    }
+    
+
+    // Pairing problem
+    /*
+     * Given n friends, each one can remain single or can be paired up with some other friend. 
+     * Each friend can be paired only one.
+     * Find out the toal no.of ways in which friends can remain single or can be paired up.
+     */
+    static int pairing (int n) {
+        // Base case 
+        if (n == 1 || n == 2) {
+            return n;
+        }
+
+        // pairing(n-1) if person is single
+        // (n-1) * pairing(n-2) if person is mingle
+        return pairing(n-1) + ((n-1) * pairing(n-2));
+    }
+
 
     public static void main(String[] args) {
         int n = 5;
@@ -98,12 +173,17 @@ public class Problems {
         incOrder(n);
         System.out.println();
 
+        // Factorial of n
         System.out.println("Factorial of number " + n + " is " + fact(n));
 
+        // Sum of N natural numbers
         System.out.println("Sum of first " + n + " natural numbers is " + sum(n));
         
+        // Nth number in fibonacci series
         System.out.println(n + "th fibonacci numbers is " + fibonacci(n));
 
+
+        // Check wether the array is sorted or not
         int[] arr1 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         if (isSorted(arr1, 0)) {
             System.out.println("Array is sorted");
@@ -114,6 +194,8 @@ public class Problems {
 
         int[] arr2 = {8, 3, 6, 9, 5, 10, 2, 5, 3};
         int key = 5;
+
+        // First occurence of an element in an array
         int idx = firstOccurence (arr2, key, 0);
         if (idx == -1) {
             System.out.println(key + " is not found in the array");
@@ -122,6 +204,7 @@ public class Problems {
             System.out.println(key + " is found at index " + idx);
         }
 
+        // Last occurence of an element in an array
         idx = lastOccurence (arr2, key, 0);
         if (idx == -1) {
             System.out.println(key + " is not found in the array");
@@ -129,5 +212,22 @@ public class Problems {
         else {
             System.out.println(key + " is found at index " + idx);
         }
+
+        int k = 2;
+        // a^n
+        System.out.println("The power of " + k + " power " + n + " is " + power(k, n));
+
+        // a^n optimised
+        System.out.println("The power of " + k + " power " + n + " is " + powerOp(k, n));
+
+        // Tailing Problem
+        System.out.println("The total number of ways to place " + n + " tiles are " + tiles(n));
+
+        // Remove Duplicates
+        String str = "apnacollege";
+        removeDup (str, 0, new StringBuilder(""), new boolean[26]);
+
+        // Pairing problem
+        System.out.println(n + " people can form " + pairing(n) + " pairs.");
     }
 }

@@ -1,0 +1,5 @@
+Approach : Divide the problem into small pieces and try to solve them individually.
+
+1. MergeSort.java
+2. QuickSort.java
+3. 

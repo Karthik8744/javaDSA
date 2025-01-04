@@ -224,7 +224,7 @@ public class Problems {
         System.out.println("The total number of ways to place " + n + " tiles are " + tiles(n));
 
         // Remove Duplicates
-        String str = "apnacollege";
+        String str = "helloworld";
         removeDup (str, 0, new StringBuilder(""), new boolean[26]);
 
         // Pairing problem

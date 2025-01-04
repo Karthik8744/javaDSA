@@ -2,4 +2,4 @@ Approach : Divide the problem into small pieces and try to solve them individual
 
 1. MergeSort.java
 2. QuickSort.java
-3. 
+3. SortedRotated.java

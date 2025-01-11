@@ -6,4 +6,5 @@
 6. Bit_Manipulation
 7. Oops
 8. Recursion
-9. Divide and Conquer
+9. Divide_and_Conquer
+10. Time_Complexity

@@ -1,0 +1,26 @@
+Time Complexity:
+
+Order Complexity Analysis:
+Amount of Space or Time taken up by an algorithm / code as function of input size.
+In simple words, Relationship between Time / Space and input size
+NOT the actual time taken
+
+Note: We always try to find worst case time complexity.
+
+Big O notation:
+Upper bound of the complexity.
+Ex: f(n) = 2n^2 + 3n + 5   -->   g(n) = n^2
+
+Big Omega notation:
+Lower bound of the complexity.
+
+Big theta notation:
+Average case of the complexity.
+
+
+Common Complexity: O(1), O(log n), O(n), O(n^2), O(2^n).
+
+
+Space Complexity:
+
+sc = input space + auxilary space

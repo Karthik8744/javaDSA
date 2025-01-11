@@ -1,5 +1,5 @@
 public class QuickSort {
-    // Time complexity: O(nlog(n))       worst case: O(n)
+    // Time complexity: O(nlog(n))       worst case: O(n²)
     // Worst case occurs when pivot element is always smallest element or largest element
     // Space complexity: O(n²)
     static void quickSort (int[] arr, int si, int ei) {

@@ -7,20 +7,32 @@ NOT the actual time taken
 
 Note: We always try to find worst case time complexity.
 
-Big O notation:
+Big O notation:(Ο)
 Upper bound of the complexity.
 Ex: f(n) = 2n^2 + 3n + 5   -->   g(n) = n^2
 
-Big Omega notation:
+Big Omega notation:(Ὼ)
 Lower bound of the complexity.
 
-Big theta notation:
+Big theta notation:(Θ)
 Average case of the complexity.
 
 
-Common Complexity: O(1), O(log n), O(n), O(n^2), O(2^n).
+Common Complexity in order: O(1), O(log n), O(n), O(n^2), O(2^n).
+O(2^n) - also known as exponential time complexity.
 
 
 Space Complexity:
 
 sc = input space + auxilary space
+Heap memory for Objects.
+Stack memory for functions.
+
+
+Time Complexity for Reccursive Algorithms (Linear and Divide and conquer):
+
+Total Work done = (no.of calls * work in each call)
+Reccurence Equation
+Space Complexity = (max depth * memory in each cell)
+
+14

@@ -35,4 +35,3 @@ Total Work done = (no.of calls * work in each call)
 Reccurence Equation
 Space Complexity = (max depth * memory in each cell)
 
-14
